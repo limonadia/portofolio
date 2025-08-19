@@ -29,3 +29,11 @@
 .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 }
+
+.skill-icon {
+  object-fit: contain;
+}
+
+.skill-icon:hover{
+  color: $skillsColor;
+}

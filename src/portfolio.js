@@ -1,67 +1,63 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/splashAnimation"; 
+import typescriptLogo from "./assets/images/file.svg";
+import typescriptHover from "./assets/images/file2.svg";
+import ionicLogo from "./assets/images/file1.svg";
+import ionicHover from "./assets/images/file12.svg";
 
-// Splash Screen
 
 const splashScreen = {
-  enabled: true, // set false to disable splash screen
+  enabled: true,
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 2000
 };
 
-// Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: true 
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Limonadia",
+  title: "Hi I'm Nadia",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A developer with a special love for frontend, but I don't stop there. I'm passionate about solving problems in the smartest, most efficient way possible. As I grow in my career, I’m exploring different corners of the ever-expanding world of technology. My portfolio is constantly evolving, with projects built using a wide range of platforms and tools. Each one represents a new challenge, a new skill, and a new opportunity to grow."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink:"https://drive.google.com/file/d/1-9uIO26mZ--BAHlWj1AYjAiHKIVDBzlE/view?usp=sharing",
+  displayGreeting: true 
 };
-
-// Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  github: "https://github.com/limonadia",
+  linkedin: "https://www.linkedin.com/in/nadia-mezini-738625284/",
+  gmail: "nadiamezini@gmail.com",
+  gitlab: "https://git.bluehat.al/nadia.mezini",
+  display: true
 };
-
-// Skills Section
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Currently I'm working as a Frontend Angular developer at BlueHat shpk in Tirana.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build dynamic, scalable, and accessible user interfaces with Angular"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop Progressive Web Apps (PWAs) and Single Page Applications (SPAs) with Angular"
+    ),
+    emoji(
+      "⚡ Optimize performance with RxJS, Angular modules, and lazy loading"
+    ),
+    emoji(
+      "⚡ State management and clean architecture with NgRx & services"
+    ),
+    emoji(
+      "⚡ Integration of REST APIs, GraphQL, and third-party services"
+    ),
+    emoji(
+      "⚡ Write reusable components and maintainable code following Angular best practices"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -81,169 +77,176 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "TypeScript",
+      src: typescriptLogo,
+      hoverimg: typescriptHover
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "Ionic",
+      src: ionicLogo,
+      hoverimg: ionicHover
+    },
+    {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
-// Education Section
-
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Faculty of Natural Sciences Tirana",
+      logo: require("./assets/images/fshn.png"),
+      subHeader: "Bachelor in Computer Science",
+      duration: "September 2021 - July 2024",
+      desc: "Focused on software engineering, web technologies, and computer systems while building a strong foundation in problem-solving and programming.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Completed projects in web development using JavaScript, Angular, and modern frameworks",
+        "Collaborated in group projects applying Agile methodologies",
+        "Gained experience in data structures, algorithms, and database design",
+        "Built console-based applications in C and C++ to strengthen problem-solving and memory management skills",
+        "Implemented object-oriented projects in Java, including desktop applications and algorithms practice",
+        "Created static and responsive web pages with HTML5 and CSS3",
+        "Developed small-scale web applications using PHP with SQL database integration",
+        "Designed and optimized relational databases (MySQL/PostgreSQL) with queries, stored procedures, and normalization",
+        "Explored animation and infographic design principles, applying them to create engaging visual content",
+        "Studied geolocation technologies and implemented projects involving maps, location tracking, and spatial data"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend (Angular / React / UI Design)",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Programming (JavaScript / TypeScript / Algorithms)",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "DevOps & Cloud (Docker / CI-CD / Firebase / AWS basics)",
+      progressPercentage: "40%"
+    },
+    {
+      Stack: "Version Control & Collaboration (Git / GitHub / Agile)",
+      progressPercentage: "85%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false 
 };
 
-// Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Angular Developer",
+      company: "BlueHat Shpk",
+      companylogo: require("./assets/images/bluehat.jpeg"),
+      date: "November 2024 – Present",
+      desc: "Building cross-platform web and mobile applications with Angular and Ionic, focusing on scalable, user-friendly solutions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed responsive front-end interfaces using Angular, TypeScript, and Ionic components",
+        "Integrated REST APIs and optimized application performance",
+        "Collaborated in Agile teams, participating in code reviews, debugging, and testing",
+        "Enhanced application scalability and maintainability through best practices"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Devops Intern",
+      company: "TiranaIT",
+      companylogo: require("./assets/images/tiranait.jpeg"),
+      date: "July 2024 – October 2024",
+      desc: "Gained hands-on experience with DevOps tools and workflows, contributing to efficient deployment and collaboration.",
+      descBullets: [
+        "Worked with Docker and Kubernetes for containerization and orchestration",
+        "Used GitHub for version control and Jira for project management",
+        "Developed Linux and shell scripting skills for application deployment",
+        "Collaborated with team members to solve technical challenges and improve workflows"
+      ]    
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", 
+  display: false
 };
 
-// Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "My Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/krijime.png"),
+      projectName: "Krijime Zanash",
+      projectDesc: "An e-commerce platform showcasing and selling handmade jewelry, built to gain experience in online retail and frontend development.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "See Repo",
+          url: "https://github.com/limonadia/krijime-zanash"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/libratrack.png"),
+      projectName: "LibraTrack",
+      projectDesc: "A library management system designed to handle reservations, cancellations, borrowing, returns, and overdue tracking, focusing on functionality and user-friendly design.",
+      footerLink: [
+        {
+          name: "See Repo",
+          url: "https://github.com/limonadia/libraTrack"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nota.png"),
+      projectName: "Nota Facile",
+      projectDesc: "A web application for personal finance management, helping users track income, expenses, and overall financial health with intuitive dashboards.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://web.notafacile.italiacoding.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/discount.png"),
+      projectName: "DiscountApp",
+      projectDesc: "A mobile application that enables businesses to offer coupons and discounts, while allowing customers to easily discover and purchase promotional deals.",
+      footerLink: [
+        {
+          name: "Unreleased App",
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/dental.png"),
+      projectName: "DentalTour",
+      projectDesc: "A platform connecting dental tourists with suitable clinics, streamlining the search, selection, and appointment process for international patients.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://dev-dentaltour.italiacoding.com/"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
-// Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -300,16 +303,14 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
-
-// Blogs Section
 
 const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "true", 
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -324,10 +325,9 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
 
-// Talks Sections
 
 const talkSection = {
   title: "TALKS",
@@ -343,47 +343,39 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
-
-// Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
 
-// Resume Section
 const resumeSection = {
   title: "Resume",
+  url: "https://drive.google.com/file/d/1-9uIO26mZ--BAHlWj1AYjAiHKIVDBzlE/view?usp=sharing",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true 
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  title: emoji("Contact Me"),
+  subtitle:"Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "",
+  email_address: "nadiamezini@gmail.com"
 };
-
-// Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "twitter", 
+  display: false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,

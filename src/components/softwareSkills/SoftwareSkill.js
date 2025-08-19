@@ -7,16 +7,27 @@ export default function SoftwareSkill() {
     <div>
       <div className="software-skills-main-div">
         <ul className="dev-icons">
-          {skillsSection.softwareSkills.map((skills, i) => {
+          {skillsSection.softwareSkills.map((skill, i) => {
             return (
               <li
                 key={i}
                 className="software-skill-inline"
-                name={skills.skillName}
+                name={skill.skillName}
               >
-                <i className={skills.fontAwesomeClassname}></i>
-                <p>{skills.skillName}</p>
+                {skill.src ? (
+                  <img
+                    src={skill.src}
+                    alt={skill.skillName}
+                    className="skill-icon"
+                    onMouseEnter={e => skill.hoverimg && (e.currentTarget.src = skill.hoverimg)}
+                    onMouseLeave={e => skill.hoverimg && (e.currentTarget.src = skill.src)}
+                  />
+                ) : (
+                  <i className={skill.fontAwesomeClassname}></i>
+                )}
+                <p>{skill.skillName}</p>
               </li>
+
             );
           })}
         </ul>
