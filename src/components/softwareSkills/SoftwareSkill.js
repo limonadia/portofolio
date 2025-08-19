@@ -19,15 +19,18 @@ export default function SoftwareSkill() {
                     src={skill.src}
                     alt={skill.skillName}
                     className="skill-icon"
-                    onMouseEnter={e => skill.hoverimg && (e.currentTarget.src = skill.hoverimg)}
-                    onMouseLeave={e => skill.hoverimg && (e.currentTarget.src = skill.src)}
+                    onMouseEnter={e =>
+                      skill.hoverimg && (e.currentTarget.src = skill.hoverimg)
+                    }
+                    onMouseLeave={e =>
+                      skill.hoverimg && (e.currentTarget.src = skill.src)
+                    }
                   />
                 ) : (
                   <i className={skill.fontAwesomeClassname}></i>
                 )}
                 <p>{skill.skillName}</p>
               </li>
-
             );
           })}
         </ul>

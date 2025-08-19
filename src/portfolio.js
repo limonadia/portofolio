@@ -1,10 +1,9 @@
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 import typescriptLogo from "./assets/images/file.svg";
 import typescriptHover from "./assets/images/file2.svg";
 import ionicLogo from "./assets/images/file1.svg";
 import ionicHover from "./assets/images/file12.svg";
-
 
 const splashScreen = {
   enabled: true,
@@ -12,9 +11,8 @@ const splashScreen = {
   duration: 2000
 };
 
-
 const illustration = {
-  animated: true 
+  animated: true
 };
 
 const greeting = {
@@ -23,8 +21,9 @@ const greeting = {
   subTitle: emoji(
     "A developer with a special love for frontend, but I don't stop there. I'm passionate about solving problems in the smartest, most efficient way possible. As I grow in my career, I’m exploring different corners of the ever-expanding world of technology. My portfolio is constantly evolving, with projects built using a wide range of platforms and tools. Each one represents a new challenge, a new skill, and a new opportunity to grow."
   ),
-  resumeLink:"https://drive.google.com/file/d/1-9uIO26mZ--BAHlWj1AYjAiHKIVDBzlE/view?usp=sharing",
-  displayGreeting: true 
+  resumeLink:
+    "https://drive.google.com/file/d/1-9uIO26mZ--BAHlWj1AYjAiHKIVDBzlE/view?usp=sharing",
+  displayGreeting: true
 };
 
 const socialMediaLinks = {
@@ -37,7 +36,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Currently I'm working as a Frontend Angular developer at BlueHat shpk in Tirana.",
+  subTitle:
+    "Currently I'm working as a Frontend Angular developer at BlueHat shpk in Tirana.",
   skills: [
     emoji(
       "⚡ Build dynamic, scalable, and accessible user interfaces with Angular"
@@ -48,12 +48,8 @@ const skillsSection = {
     emoji(
       "⚡ Optimize performance with RxJS, Angular modules, and lazy loading"
     ),
-    emoji(
-      "⚡ State management and clean architecture with NgRx & services"
-    ),
-    emoji(
-      "⚡ Integration of REST APIs, GraphQL, and third-party services"
-    ),
+    emoji("⚡ State management and clean architecture with NgRx & services"),
+    emoji("⚡ Integration of REST APIs, GraphQL, and third-party services"),
     emoji(
       "⚡ Write reusable components and maintainable code following Angular best practices"
     )
@@ -93,9 +89,9 @@ const skillsSection = {
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
-    },
+    }
   ],
-  display: true 
+  display: true
 };
 
 const educationInfo = {
@@ -143,9 +139,8 @@ const techStack = {
       progressPercentage: "85%"
     }
   ],
-  displayCodersrank: false 
+  displayCodersrank: false
 };
-
 
 const workExperiences = {
   display: true,
@@ -174,16 +169,15 @@ const workExperiences = {
         "Used GitHub for version control and Jira for project management",
         "Developed Linux and shell scripting skills for application deployment",
         "Collaborated with team members to solve technical challenges and improve workflows"
-      ]    
+      ]
     }
   ]
 };
 
 const openSource = {
-  showGithubProfile: "false", 
+  showGithubProfile: "false",
   display: false
 };
-
 
 const bigProjects = {
   title: "My Projects",
@@ -192,7 +186,8 @@ const bigProjects = {
     {
       image: require("./assets/images/krijime.png"),
       projectName: "Krijime Zanash",
-      projectDesc: "An e-commerce platform showcasing and selling handmade jewelry, built to gain experience in online retail and frontend development.",
+      projectDesc:
+        "An e-commerce platform showcasing and selling handmade jewelry, built to gain experience in online retail and frontend development.",
       footerLink: [
         {
           name: "See Repo",
@@ -203,7 +198,8 @@ const bigProjects = {
     {
       image: require("./assets/images/libratrack.png"),
       projectName: "LibraTrack",
-      projectDesc: "A library management system designed to handle reservations, cancellations, borrowing, returns, and overdue tracking, focusing on functionality and user-friendly design.",
+      projectDesc:
+        "A library management system designed to handle reservations, cancellations, borrowing, returns, and overdue tracking, focusing on functionality and user-friendly design.",
       footerLink: [
         {
           name: "See Repo",
@@ -214,7 +210,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nota.png"),
       projectName: "Nota Facile",
-      projectDesc: "A web application for personal finance management, helping users track income, expenses, and overall financial health with intuitive dashboards.",
+      projectDesc:
+        "A web application for personal finance management, helping users track income, expenses, and overall financial health with intuitive dashboards.",
       footerLink: [
         {
           name: "Visit Website",
@@ -225,17 +222,19 @@ const bigProjects = {
     {
       image: require("./assets/images/discount.png"),
       projectName: "DiscountApp",
-      projectDesc: "A mobile application that enables businesses to offer coupons and discounts, while allowing customers to easily discover and purchase promotional deals.",
+      projectDesc:
+        "A mobile application that enables businesses to offer coupons and discounts, while allowing customers to easily discover and purchase promotional deals.",
       footerLink: [
         {
-          name: "Unreleased App",
+          name: "Unreleased App"
         }
       ]
     },
     {
       image: require("./assets/images/dental.png"),
       projectName: "DentalTour",
-      projectDesc: "A platform connecting dental tourists with suitable clinics, streamlining the search, selection, and appointment process for international patients.",
+      projectDesc:
+        "A platform connecting dental tourists with suitable clinics, streamlining the search, selection, and appointment process for international patients.",
       footerLink: [
         {
           name: "Visit Website",
@@ -244,9 +243,8 @@ const bigProjects = {
       ]
     }
   ],
-  display: true 
+  display: true
 };
-
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -310,7 +308,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", 
+  displayMediumBlogs: "true",
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -327,7 +325,6 @@ const blogSection = {
   ],
   display: false
 };
-
 
 const talkSection = {
   title: "TALKS",
@@ -360,18 +357,19 @@ const resumeSection = {
   title: "Resume",
   url: "https://drive.google.com/file/d/1-9uIO26mZ--BAHlWj1AYjAiHKIVDBzlE/view?usp=sharing",
   subtitle: "Feel free to download my resume",
-  display: true 
+  display: true
 };
 
 const contactInfo = {
   title: emoji("Contact Me"),
-  subtitle:"Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "",
   email_address: "nadiamezini@gmail.com"
 };
 
 const twitterDetails = {
-  userName: "twitter", 
+  userName: "twitter",
   display: false
 };
 
