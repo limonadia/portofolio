@@ -147,7 +147,7 @@ const techStack = {
 };
 
 const softSkills = {
-  viewSkillBars: true, 
+  viewSkillBars: true,
   animated: true,
   skills: [
     {
@@ -171,7 +171,7 @@ const softSkills = {
       progressPercentage: "90%"
     }
   ]
-}
+};
 
 const workExperiences = {
   display: true,

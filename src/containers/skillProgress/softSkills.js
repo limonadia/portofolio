@@ -1,20 +1,18 @@
 import React from "react";
 import "./Progress.scss";
-import { softSkills } from "../../portfolio";
+import {softSkills} from "../../portfolio";
 import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import CodeAnimation from "../../assets/lottie/Teamwork";
-
 
 export default function SoftSkills() {
   if (softSkills.viewSkillBars) {
     return (
       <Fade bottom duration={1000} distance="20px">
         <div className="skills-container">
-
-        <div className="skills-image">
-            {softSkills.animated ? ( 
+          <div className="skills-image">
+            {softSkills.animated ? (
               <DisplayLottie animationData={CodeAnimation} />
             ) : (
               <img
@@ -23,10 +21,10 @@ export default function SoftSkills() {
               />
             )}
           </div>
-          
+
           <div className="skills-bar">
             <h1 className="skills-heading">Soft Skills</h1>
-            {softSkills.skills.map((skill, i) => { 
+            {softSkills.skills.map((skill, i) => {
               const progressStyle = {
                 width: skill.progressPercentage
               };
@@ -40,8 +38,6 @@ export default function SoftSkills() {
               );
             })}
           </div>
-
-         
         </div>
       </Fade>
     );
