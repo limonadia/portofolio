@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portofolio/static/css/main.64fb4040.css",
+    "main.js": "/portofolio/static/js/main.4797519a.js",
+    "static/css/487.bb36206c.chunk.css": "/portofolio/static/css/487.bb36206c.chunk.css",
+    "static/js/487.7ae187c0.chunk.js": "/portofolio/static/js/487.7ae187c0.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/portofolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.4fef870f.chunk.js": "/portofolio/static/js/990.4fef870f.chunk.js",
+    "static/media/krijime.png": "/portofolio/static/media/krijime.7cd34ca156a43ca23b13.png",
+    "static/media/libratrack.png": "/portofolio/static/media/libratrack.f3048c0ec5d7a9855ee9.png",
+    "static/media/dental.png": "/portofolio/static/media/dental.3eba0c61765a092b300a.png",
+    "static/media/discount.png": "/portofolio/static/media/discount.1ec6b7a3c2bf205407f3.png",
+    "static/media/Montserrat-Regular.ttf": "/portofolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Resume-Nadia-Mezini.pdf": "/portofolio/static/media/Resume-Nadia-Mezini.b937e0f25c9265a9566f.pdf",
+    "static/media/nota.png": "/portofolio/static/media/nota.a6b4450065471f2124d8.png",
+    "static/media/Agustina.woff": "/portofolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/fshn.png": "/portofolio/static/media/fshn.70f6980c26d3e869e690.png",
+    "static/media/manOnTable.svg": "/portofolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/portofolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/portofolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/googleAssistantLogo.webp": "/portofolio/static/media/googleAssistantLogo.f720c71652579588524a.webp",
+    "static/media/codeInLogo.webp": "/portofolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
+    "static/media/file1.svg": "/portofolio/static/media/file1.4363f57f5e736fd350c46bc8d3a8c373.svg",
+    "static/media/file12.svg": "/portofolio/static/media/file12.fa91edcc61ae1bbe4e656c83135967bc.svg",
+    "static/media/file.svg": "/portofolio/static/media/file.01913beac2a5f8d5012c82c0b338f82b.svg",
+    "static/media/file2.svg": "/portofolio/static/media/file2.9f159843c8f8f4897a0e1817e79274d5.svg",
+    "static/media/skill.svg": "/portofolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/pwaLogo.webp": "/portofolio/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
+    "index.html": "/portofolio/index.html",
+    "static/media/talksCardBack.svg": "/portofolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.64fb4040.css.map": "/portofolio/static/css/main.64fb4040.css.map",
+    "main.4797519a.js.map": "/portofolio/static/js/main.4797519a.js.map",
+    "487.bb36206c.chunk.css.map": "/portofolio/static/css/487.bb36206c.chunk.css.map",
+    "487.7ae187c0.chunk.js.map": "/portofolio/static/js/487.7ae187c0.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/portofolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.4fef870f.chunk.js.map": "/portofolio/static/js/990.4fef870f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64fb4040.css",
+    "static/js/main.4797519a.js"
+  ]
+}
