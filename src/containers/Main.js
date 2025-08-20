@@ -19,6 +19,7 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import SoftSkills from "./skillProgress/softSkills";
 import "./Main.scss";
 
 const Main = () => {
@@ -54,6 +55,7 @@ const Main = () => {
             <Greeting />
             <Skills />
             <StackProgress />
+            <SoftSkills />
             <Education />
             <WorkExperience />
             <Projects />

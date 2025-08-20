@@ -82,6 +82,10 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-angular"
     },
     {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
       skillName: "Ionic",
       src: ionicLogo,
       hoverimg: ionicHover
@@ -127,7 +131,7 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Programming (JavaScript / TypeScript / Algorithms)",
+      Stack: "Programming (JavaScript / TypeScript / PHP)",
       progressPercentage: "70%"
     },
     {
@@ -141,6 +145,33 @@ const techStack = {
   ],
   displayCodersrank: false
 };
+
+const softSkills = {
+  viewSkillBars: true, 
+  animated: true,
+  skills: [
+    {
+      Skill: "Communication",
+      progressPercentage: "95%"
+    },
+    {
+      Skill: "Teamwork",
+      progressPercentage: "90%"
+    },
+    {
+      Skill: "Problem-Solving",
+      progressPercentage: "85%"
+    },
+    {
+      Skill: "Leadership",
+      progressPercentage: "80%"
+    },
+    {
+      Skill: "Adaptability",
+      progressPercentage: "90%"
+    }
+  ]
+}
 
 const workExperiences = {
   display: true,
@@ -383,6 +414,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
+  softSkills,
   workExperiences,
   openSource,
   bigProjects,
