@@ -37,6 +37,7 @@
 .button-greeting-div {
   display: flex;
   margin-top: 40px;
+  width: 100%;
 }
 .download-link-button {
   text-decoration: none;
@@ -124,4 +125,8 @@
   .main {
     width: auto;
   }
+}
+
+.contact{
+  margin-right: 5px;
 }

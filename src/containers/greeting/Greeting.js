@@ -39,7 +39,9 @@ export default function Greeting() {
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <div className="contact">
+                  <Button text="Contact me" href="#contact" />
+                </div>
                 {greeting.resumeLink && (
                   <a
                     href={require("../../assets/Resume-Nadia-Mezini.pdf")}
