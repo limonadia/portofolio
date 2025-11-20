@@ -36,15 +36,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle:
-    "I like to think of myself as a T-shaped Developer",
+  subTitle: "I like to think of myself as a T-shaped Developer",
   skills: [
-     emoji(
+    emoji(
       "⚡ Develop full-stack web applications using different tools and frameworks"
     ),
-    emoji(
-      "⚡ Build dynamic, scalable, and accessible user interfaces"
-    ),
+    emoji("⚡ Build dynamic, scalable, and accessible user interfaces"),
     emoji(
       "⚡ Develop Progressive Web Apps (PWAs) and Single Page Applications (SPAs)"
     ),
