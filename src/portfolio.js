@@ -19,10 +19,10 @@ const greeting = {
   username: "Limonadia",
   title: "Hi I'm Nadia",
   subTitle: emoji(
-    "A developer with a special love for frontend, but I don't stop there. I'm passionate about solving problems in the smartest, most efficient way possible. As I grow in my career, I’m exploring different corners of the ever-expanding world of technology. My portfolio is constantly evolving, with projects built using a wide range of platforms and tools. Each one represents a new challenge, a new skill, and a new opportunity to grow."
+    "A Full Stack Developer with a special love for frontend, but I don't stop there. I'm passionate about solving problems in the smartest, most efficient way possible. As I grow in my career, I’m exploring different corners of the ever-expanding world of technology. My portfolio is constantly evolving, with projects built using a wide range of platforms and tools. Each one represents a new challenge, a new skill, and a new opportunity to grow."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-9uIO26mZ--BAHlWj1AYjAiHKIVDBzlE/view?usp=sharing",
+    "https://docs.google.com/document/d/1USw1E-SrlsZkOtDG3azP3opkPGXTlaknJEg2U0LJmdY/edit?usp=sharing",
   displayGreeting: true
 };
 
@@ -37,13 +37,16 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Currently I'm working as a Frontend Angular developer at BlueHat shpk in Tirana.",
+    "I like to think of myself as a T-shaped Developer",
   skills: [
-    emoji(
-      "⚡ Build dynamic, scalable, and accessible user interfaces with Angular"
+     emoji(
+      "⚡ Develop full-stack web applications using different tools and frameworks"
     ),
     emoji(
-      "⚡ Develop Progressive Web Apps (PWAs) and Single Page Applications (SPAs) with Angular"
+      "⚡ Build dynamic, scalable, and accessible user interfaces"
+    ),
+    emoji(
+      "⚡ Develop Progressive Web Apps (PWAs) and Single Page Applications (SPAs)"
     ),
     emoji(
       "⚡ Optimize performance with RxJS, Angular modules, and lazy loading"
@@ -57,15 +60,15 @@ const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Html",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "Css",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -91,7 +94,7 @@ const skillsSection = {
       hoverimg: ionicHover
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     }
   ],
@@ -180,7 +183,7 @@ const workExperiences = {
       role: "Angular Developer",
       company: "BlueHat Shpk",
       companylogo: require("./assets/images/bluehat.jpeg"),
-      date: "November 2024 – Present",
+      date: "November 2023 – Present",
       desc: "Building cross-platform web and mobile applications with Angular and Ionic, focusing on scalable, user-friendly solutions.",
       descBullets: [
         "Developed responsive front-end interfaces using Angular, TypeScript, and Ionic components",
@@ -215,14 +218,26 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
+      image: require("./assets/images/casino.png"),
+      projectName: "Casino Hub",
+      projectDesc:
+        "An attempt to create an online casino platform with various games.",
+      footerLink: [
+        {
+          name: "Check it Out",
+          url: "https://casino-hub-psi.vercel.app"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/krijime.png"),
       projectName: "Krijime Zanash",
       projectDesc:
         "An e-commerce platform showcasing and selling handmade jewelry, built to gain experience in online retail and frontend development.",
       footerLink: [
         {
-          name: "See Repo",
-          url: "https://github.com/limonadia/krijime-zanash"
+          name: "Check it Out",
+          url: "https://krijime-zanash.vercel.app"
         }
       ]
     },
@@ -233,8 +248,8 @@ const bigProjects = {
         "A library management system designed to handle reservations, cancellations, borrowing, returns, and overdue tracking, focusing on functionality and user-friendly design.",
       footerLink: [
         {
-          name: "See Repo",
-          url: "https://github.com/limonadia/libraTrack"
+          name: "Check it Out",
+          url: "https://libra-track-nu.vercel.app"
         }
       ]
     },
