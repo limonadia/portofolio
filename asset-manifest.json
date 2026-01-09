@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio/static/css/main.938ee3a5.css",
-    "main.js": "/portofolio/static/js/main.51a8e15b.js",
+    "main.js": "/portofolio/static/js/main.68155179.js",
     "static/css/487.bb36206c.chunk.css": "/portofolio/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/portofolio/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/portofolio/static/css/990.c6a7ee28.chunk.css",
@@ -13,7 +13,7 @@
     "static/media/discount.png": "/portofolio/static/media/discount.1ec6b7a3c2bf205407f3.png",
     "static/media/Montserrat-Regular.ttf": "/portofolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/nota.png": "/portofolio/static/media/nota.a6b4450065471f2124d8.png",
-    "static/media/Resume-Nadia-Mezini.pdf": "/portofolio/static/media/Resume-Nadia-Mezini.7cac5b2c792209d90139.pdf",
+    "static/media/Resume-Nadia-Mezini.pdf": "/portofolio/static/media/Resume-Nadia-Mezini.b0b771ed8a195c5d5099.pdf",
     "static/media/Agustina.woff": "/portofolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/fshn.png": "/portofolio/static/media/fshn.70f6980c26d3e869e690.png",
     "static/media/manOnTable.svg": "/portofolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -30,7 +30,7 @@
     "index.html": "/portofolio/index.html",
     "static/media/talksCardBack.svg": "/portofolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.938ee3a5.css.map": "/portofolio/static/css/main.938ee3a5.css.map",
-    "main.51a8e15b.js.map": "/portofolio/static/js/main.51a8e15b.js.map",
+    "main.68155179.js.map": "/portofolio/static/js/main.68155179.js.map",
     "487.bb36206c.chunk.css.map": "/portofolio/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/portofolio/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/portofolio/static/css/990.c6a7ee28.chunk.css.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.938ee3a5.css",
-    "static/js/main.51a8e15b.js"
+    "static/js/main.68155179.js"
   ]
 }
