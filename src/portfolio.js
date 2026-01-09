@@ -184,12 +184,16 @@ const workExperiences = {
       company: "BlueHat Shpk",
       companylogo: require("./assets/images/bluehat.jpeg"),
       date: "November 2024 – Present",
-      desc: "Building cross-platform web and mobile applications with Angular and Ionic, focusing on scalable, user-friendly solutions.",
+      desc: "As part of an outsourcing team, I contributed to multiple projects, supporting both frontend and backend development. By working with a variety of technologies based on project needs, I continuously expanded my technical skill set and domain knowledge.",
       descBullets: [
-        "Developed responsive front-end interfaces using Angular, TypeScript, and Ionic components",
-        "Integrated REST APIs and optimized application performance",
-        "Collaborated in Agile teams, participating in code reviews, debugging, and testing",
-        "Enhanced application scalability and maintainability through best practices"
+        "Built strong experience with frontend frameworks like Angular and React-based frameworks",
+        "Enhanced application UI using Bootstrap, Ionic, and Tailwind CSS",
+        "Developed backend services using PHP, Go, and Java",
+        "Managed relational databases such as MySQL and PostgreSQL",
+        "Built cross-platform web and mobile applications",
+        "Performed debugging and testing to ensure application quality",
+        "Collaborated closely with team members in Agile development environments to deliver features",
+        "Adapted to diverse project requirements, expanding technical skill set and domain knowledge."
       ]
     },
     {
