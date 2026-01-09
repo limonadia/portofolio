@@ -30,7 +30,6 @@ const socialMediaLinks = {
   github: "https://github.com/limonadia",
   linkedin: "https://www.linkedin.com/in/nadia-mezini-738625284/",
   gmail: "nadiamezini@gmail.com",
-  gitlab: "https://git.bluehat.al/nadia.mezini",
   display: true
 };
 
@@ -131,7 +130,7 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Programming (JavaScript / TypeScript / PHP)",
+      Stack: "Programming (JavaScript / TypeScript / PHP/ Golang)",
       progressPercentage: "70%"
     },
     {
@@ -139,7 +138,11 @@ const techStack = {
       progressPercentage: "40%"
     },
     {
-      Stack: "Version Control & Collaboration (Git / GitHub / Agile)",
+      Stack: "Database (MySQL)",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Version Control & Collaboration (Git / GitHub / Agile / Vercel / Raillway)",
       progressPercentage: "85%"
     }
   ],
@@ -177,10 +180,10 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Angular Developer",
+      role: "Full Stack Developer",
       company: "BlueHat Shpk",
       companylogo: require("./assets/images/bluehat.jpeg"),
-      date: "November 2023 – Present",
+      date: "November 2024 – Present",
       desc: "Building cross-platform web and mobile applications with Angular and Ionic, focusing on scalable, user-friendly solutions.",
       descBullets: [
         "Developed responsive front-end interfaces using Angular, TypeScript, and Ionic components",
