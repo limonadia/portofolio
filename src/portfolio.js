@@ -22,7 +22,7 @@ const greeting = {
     "A Full Stack Developer with a special love for frontend, but I don't stop there. I'm passionate about solving problems in the smartest, most efficient way possible. As I grow in my career, I’m exploring different corners of the ever-expanding world of technology. My portfolio is constantly evolving, with projects built using a wide range of platforms and tools. Each one represents a new challenge, a new skill, and a new opportunity to grow."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1USw1E-SrlsZkOtDG3azP3opkPGXTlaknJEg2U0LJmdY/edit?usp=sharing",
+    "https://drive.google.com/file/d/1-9uIO26mZ--BAHlWj1AYjAiHKIVDBzlE/view?usp=sharing",
   displayGreeting: true
 };
 
